@@ -1,35 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 2px 100px;
 }
 
 .leftbox {
     display: flex;
     align-items: center;
 }
-
-ul {
-    display: flex;
-    gap: 20px;
-}
-li {
-    display: flex;
-    align-items: center;
-}
-
 .rightbox {
     display: flex;
     align-items: center;
     gap: 20px;
 }
-.hero {
-    width: 100vw;
-    height: 100vh;
-    background-color: #f5f5f5;
+ul {
+    display: flex;
+    gap: 20px;
+} 
+li {
+    display: flex;
+    align-items: center;
 }
-
-body {
-    margin: 0;
-    padding: 0;
+.hero {
+    width: 95vw;
+    height: 100vh;
+    text-align: center;
+    background-color: #f5f5f5;
+    justify-content: center;
+    margin: 10px 30px 0px;
+}
+.topCentreHeading {
+    font-size: 17.5px;
+    font-weight: bold;
+    margin: 10px 0px;
+    color: #717171;
+}
+.boldCentreHeading {
+    font-size: 70px;
+    margin: 0px;
+}
+.getEmail {
+    font-size: 22px;
+    margin: 20px 0px 50px;
+}
+.buttonContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.startTrial {
+    font-size: 25px;
+    color: #191b19;
+    padding: 17px 40px;
+    font-weight: bold;
+    border-radius: 25px;
+    border: 3px solid rgb(215, 216, 143);
+    background-color: #fbe30c;
+    margin: 15px;
+}
+span {
+    font-size: 14px;
 }
