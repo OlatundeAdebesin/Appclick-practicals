@@ -1,0 +1,296 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: roboto, sans-serif;
+}
+#page-container1 {
+  padding: 0px 30px;
+  display: flex;
+  gap: 20px;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+}
+p {
+  margin: 0;
+  font-size: 12px;
+}
+.sidebar {
+  width: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: center;
+  gap: 40px;
+  padding: 30px 0px 0px 0px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    padding: 20px 0px;
+}
+.secondnav {
+    display: flex;
+    gap: 10px;
+    margin-left: 30px;
+}
+.secondnav button {
+    background-color: rgb(241, 238, 238);
+    border: none;
+    padding: 8px 11px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+.secondnav button:hover {
+    cursor: pointer;
+}
+.left-box{
+  width: 100%;
+  align-content: inline;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    height: 50px;
+    flex-wrap: nowrap;
+    overflow: hidden;
+  justify-content:left;
+    flex: 1;
+}
+
+.left-box div {
+  height: 100%;
+  width: 50px;
+  border-radius: 50%;
+  display:flex;
+  align-items: center;
+  font-size: 25px;
+  font-weight: lighter;
+}
+.left-box div i:hover {
+  height: 100%;
+  width: 50px;
+  border-radius: 50%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(220, 219, 219);
+  cursor: pointer;
+}
+.left-box div img {
+    width: 90px;
+    height: 80%;
+}
+
+.logo {
+    position:relative
+}
+.logo span {
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    position:absolute;
+    top: -1.7px;
+    right: -60px;
+}
+.right-box{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    gap: 23px;
+}
+
+.right-box img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.right-box div {
+  padding: 10px;
+  border-radius: 50%;
+  position: relative;
+}
+.right-box div:hover {
+  background-color: rgb(230, 230, 230);
+}
+.right-box div span {
+  background-color: rgb(208, 58, 58);
+  padding: 0.5px 4.3px;
+  border-radius: 30px;
+  border: 1px solid white;
+  color: white;
+  position: absolute;
+  top: 0;
+  right: 1px;
+  top: 7px;
+  font-size: smaller;
+}
+.right-box div i {
+  font-size: 25px;
+}
+
+.middle-box{
+    flex: 2;
+    display: flex;
+}
+
+.input-box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(241, 238, 238);
+    border: 1px solid rgb(209, 199, 199);
+    border-radius: 40px;
+    overflow: hidden;
+}
+
+.input-box input{
+    width: 89%;
+    height: 40px;
+    font-size: 18px;
+    padding-left: 20px;
+    outline: none;
+    border: none;
+}
+
+.input-box div {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    width: 11%;
+}
+.input-box div i {
+    font-size: 20px;
+    margin-left: 20px;
+}
+#mic-icon {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(241, 238, 238);
+}
+#mic-icon div {
+    font-size: 25px;
+    font-weight: lighter;
+}
+#mic-icon:hover {
+    background-color: rgb(220, 219, 219);
+    cursor: pointer;
+    
+}
+.create-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 40px;
+    border-radius: 18px;
+    border: none;
+    padding-right: 16px;
+    gap: 5px;
+}
+.create-btn:hover {
+    background-color: rgb(220, 219, 219);
+    cursor: pointer;
+}
+
+.create-btn i {
+    font-size: 34px;
+    font-weight: lighter;
+}
+.create-btn span {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/* This is for the video section */
+section {
+padding:30px;
+display: flex;
+gap: 20px;
+}
+.video-image {
+  width: 430px;
+  border-radius: 15px;
+}
+.video-image:hover {
+border-radius: 0px;
+cursor: pointer;
+}
+.channel-image{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.video-info {
+display: flex;
+gap: 10px;
+margin-top: 10px;
+width: 430px;
+}
+.video-title {
+  margin: 0px
+}
+.video-author {
+  margin: 0px;
+}
+article {
+  display: flex;
+  flex-direction: column;
+}
+article:hover {
+  background-color: rgb(220, 219, 219);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.video {
+position: relative;
+display: flex;
+flex-wrap: wrap;
+}
+.video span {
+  position: absolute;
+  top: 200px;
+  right: 30px;
+  color: white;
+  background-color: rgb(115, 99, 99);
+  padding: 2px 5px;
+  border-radius: 5px;
+}
+
+
+/* .example {
+  display: flex;
+}
+.one {
+  flex: 50%;
+}
+.two {
+  flex: 35%;
+}
+.three {
+  flex: 15%;
+} */
+
+/* .one {
+  width: 60%;
+  height: 400px;
+  position: relative;
+}
+.one div {
+  height: 50px;
+  width: 100px;
+  background-color: black;
+  position: absolute;
+  top: 45%;
+  left: 320px;
+} */
