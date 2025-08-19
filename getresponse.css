@@ -1,13 +1,13 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: rubik, Arial, Helvetica, sans-serif;
 }
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2px 100px;
+    padding: 2px 120px;
 }
 
 .leftbox {
@@ -28,26 +28,28 @@ li {
     align-items: center;
 }
 .hero {
-    width: 95vw;
+    width: 94vw;
     height: 100vh;
     text-align: center;
-    background-color: #f5f5f5;
     justify-content: center;
-    margin: 10px 30px 0px;
+    padding: 20px 30px 0px;
+}
+.heroText {
+    padding: 22px 0px 25px;
 }
 .topCentreHeading {
-    font-size: 17.5px;
+    font-size: 14px;
     font-weight: bold;
-    margin: 10px 0px;
     color: #717171;
+    margin: 0px 0px 10px;
 }
 .boldCentreHeading {
-    font-size: 70px;
+    font-size: 60px;
+    font-weight: bold;
     margin: 0px;
 }
 .getEmail {
-    font-size: 22px;
-    margin: 20px 0px 50px;
+    font-size: 17.1px;
 }
 .buttonContainer {
     display: flex;
@@ -56,15 +58,15 @@ li {
     margin-bottom: 30px;
 }
 .startTrial {
-    font-size: 25px;
+    font-size: 18px;
     color: #191b19;
-    padding: 17px 40px;
+    padding: 17px 31px;
     font-weight: bold;
     border-radius: 25px;
     border: 3px solid rgb(215, 216, 143);
     background-color: #fbe30c;
     margin: 15px;
 }
-span {
-    font-size: 14px;
+small {
+    font-size: 10px;
 }
