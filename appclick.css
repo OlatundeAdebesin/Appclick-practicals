@@ -1,0 +1,125 @@
+body {
+    font-family: roboto sans-serif;
+}
+section {
+    display: flex;
+    
+}
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 32.2%;
+    margin: 0;
+    padding: 130px 0px;
+}
+.form-container img {
+    width: 128px;
+    height: 69px;
+    margin: 0 68px 20px 0px;
+}
+.login-box {
+    
+    font-family: roboto sans-serif;
+}
+.textbox div input {
+    box-shadow: 0 0 2px #35aa47;
+    margin: 5px 0;
+    border-radius: 3px;
+    border: none;
+    width: 240px;
+    height: 40px;
+    padding: 0px 15px; 
+}
+.textbox div input:focus {
+    outline: none;
+    border: 0.5px solid #35aa47;
+    box-shadow: none;
+    /* background-color: #e8f0fe; */
+}
+.username {
+    position: relative;
+}
+.password {
+    position: relative;
+}
+.username i {
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    color: #857f7f;
+    font-size: 13px;
+}
+.password i {
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    color: #857f7f;
+    font-size: 10px;
+}
+.btn {
+    border-radius: 5px;
+    border: none;
+    width: 270px;
+    height: 40px;
+    margin: 5px 0;
+    background-color: #35aa47;
+    color: #ffffff;
+}
+.btn:hover {
+    background-color: #404441;
+    cursor: pointer;
+}
+.dev-img {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    width: 66.8%;
+    height: 100%;
+    border: none;
+    margin: 0;
+    padding: 0;
+    /* background: url('https://appclick.ng/portal/uploads/school_content/login_image/1690229717-162752723964bedbd546018!Stay-Ahead-in-the-Coding-World-with-These-Programming-Laptop-2.jpg') no-repeat;
+    background-size: cover; */
+}
+p {
+    color: rgb(84, 72, 72);
+    font-size: 15px;
+    margin: 10px 0px;
+    padding: 0;
+    font-family: roboto, sans-serif;
+}
+small {
+    color: #000000;
+    font-size: 10px;
+    font-family: roboto, sans-serif;
+}
+small:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+/* span i {
+    color: #000000;
+    font-size: 15px;
+    margin-right: 2px;
+} */
+@media screen and (max-width: 600px) {
+    section {
+        display: flex;
+        flex-direction: column;
+    }
+    .form-container {
+        display: flex;
+        width: 100vw;
+        padding: 50px 0;
+    }
+    .dev-img {
+        display: flex;
+        position: relative;
+        width: 100vw;
+    }   
+}
