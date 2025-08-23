@@ -31,7 +31,8 @@ section {
     border: none;
     width: 240px;
     height: 40px;
-    padding: 0px 15px; 
+    padding: 0px 15px 0px;
+    justify-content: center;
 }
 .textbox div input:focus {
     outline: none;
@@ -111,15 +112,44 @@ small:hover {
     section {
         display: flex;
         flex-direction: column;
+        width: 100vw;
+        height: 100vh;
     }
     .form-container {
         display: flex;
-        width: 100vw;
-        padding: 50px 0;
+        flex-direction: column;
+        width: 100vw;    
+    }
+    .form-container img {
+        width: 128px;
+        height: 69px;
+        margin: 0 128px 10px 60px;
+}
+.textbox div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+}
+    .textbox div input {
+        box-shadow: 0 0 2px #35aa47;
+        margin: 5px 0px;
+        border-radius: 3px;
+        border: none;
+        width: 80vw;
+        height: 30px;
+        padding: 0px 15px; 
+    }
+    .btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 86.9vw;
+        height: 30px;
     }
     .dev-img {
         display: flex;
+        flex-direction: column;
         position: relative;
-        width: 100vw;
-    }   
+        width: 100vw;    
+}   
 }
