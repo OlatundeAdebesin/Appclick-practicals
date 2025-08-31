@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LearnJS by me</title>
+    
+</head>
+<body>
+    <script>
+        console.log("Hello, World!"); //This our first js code
+
+        // let name = "John";
+        // const name = "Mike"; //constant variable
+        // console.log(name);
+        // var age = 30; //variable (this is outdated and no longer in use because it has function scope. It does not show error notification)
+        // console.log(age);
+        // name = "Sara"; //reassigning the variable
+        // console.log(name);
+        // let location = "Lagos"; //declaring the variable
+        // location = "Abuja"; //reassigning the variable
+        // console.log(location);
+        // let age = 18;
+        // if (age > 18) {
+        //     console.log("Adult");
+        // } else {
+        //     console.log("Minor");
+        // }
+        // const name = "Me";
+        // let city = "Ibadan";
+        // const favouriteColor = "White";
+        // const day = 24;
+
+        let price = 500;
+    let discount = 4/100;
+    let finalPrice = price - (price * discount);
+    console.log(Math.round(finalPrice));
+        
+
+    //    //String
+    //    let name1 = "John"; //double quotes
+    //    let name2 = 'Doe'; //single quotes
+    //    //Number
+    //    let age1 = 30; //number
+    //    let age2 = 25; //number
+    //    //Boolean
+    //    let isStudent1 = true; //boolean
+    //    let isStudent2 = false; //boolean
+    // console.log(2+2); //addition
+    // console.log(10-5); //subtraction
+    // console.log(4*2); //multiplication
+    // console.log(8/2); //division
+    // console.log(5%2); //modulus
+    // console.log(5**2); //exponentiation
+
+    // let price = 200;
+    // console.log(price);
+    // price = 250; //reassigning the variable
+    // console.log(price);
+    // let unit = 5;
+    // console.log(unit);
+    // let total = price * unit;
+    // console.log(total);
+
+    // //increment and decrement operations
+    // unit++;
+    // console.log(unit);
+    // unit--;
+    // console.log(unit);
+
+    // //order of operations
+    // let result = 2 + 3 * 4; //BODMAS
+    // console.log(result);
+
+    // //Nested operations
+    // let nestedResult = (2 + 3) * 4;
+    // console.log(nestedResult);
+
+    // //Comparison operators
+    // console.log(5 > 2); //greater than
+    // console.log(5 < 2); //less than
+    // console.log(5 >= 5); //greater than or equal to
+    // console.log(5 <= 2); //less than or equal to
+    // console.log(5 == 5); //equal to
+    // console.log(5 != 2); //not equal to
+
+    // //Strict equality operators
+    // console.log(5 === 5); //strict equal to
+    // console.log(5 !== 2); //strict not equal to
+
+    // //Logical operators
+    // console.log(5 > 2 && 5 < 10); //logical AND
+    // console.log(5 > 2 || 5 < 4); //logical OR
+    // console.log(!(5 > 2)); //logical NOT
+
+    // //Bitwise operators
+    // console.log(5 & 2); //bitwise AND
+    // console.log(5 | 2); //bitwise OR
+    // console.log(5 ^ 2); //bitwise XOR
+    // console.log(~5); //bitwise NOT
+    // console.log(5 << 1); //left shift
+    // console.log(5 >> 1); //right shift
+
+    // //Ternary operator
+    // let age = 18;
+    // let isAdult = (age >= 18) ? "Adult" : "Minor";
+    // console.log(isAdult);
+
+    // //Nullish coalescing operator
+    // let user = null;
+    // let defaultUser = "Guest";
+    // console.log(user ?? defaultUser);
+
+    // //Optional chaining operator
+    // let userProfile = {
+    //     name: "John",
+    //     age: 30,
+    //     address: {
+    //         city: "New York",
+    //         zip: "10001"
+    //     }
+    // };
+    // console.log(userProfile?.address?.city);
+
+    // //Optional chaining with function calls
+    // let getUserCity = (user) => user?.address?.city;
+    // console.log(getUserCity(userProfile));
+
+    // //Optional chaining with array access
+    // let userArray = [
+    //     { name: "John", age: 30 },
+    //     { name: "Jane", age: 25 }
+    // ];
+    // console.log(userArray?.[0]?.name);
+
+    // //Optional chaining with array methods
+    // console.log(userArray?.find(user => user.age === 30)?.name);
+
+    // //Optional chaining with array iteration
+    // userArray?.forEach(user => {
+    //     console.log(user?.name);
+    // });
+
+    // //Optional chaining with array reduction
+    // let totalAge = userArray?.reduce((sum, user) => sum + (user?.age || 0), 0);
+    // console.log(totalAge);
+
+    // //Optional chaining with array filtering
+    // let filteredUsers = userArray?.filter(user => user.age > 25);
+    // console.log(filteredUsers);
+
+    // //Optional chaining with array sorting
+    // let sortedUsers = userArray?.sort((a, b) => b.age - a.age);
+    // console.log(sortedUsers);
+
+    // //Optional chaining with array slicing
+    // let slicedUsers = userArray?.slice(0, 1);
+    // console.log(slicedUsers);
+
+    // //Optional chaining with array mapping
+    // let userNames = userArray?.map(user => user?.name);
+    // console.log(userNames);
+
+    // //Optional chaining with array flattening
+    // let flattenedUserNames = userArray?.flatMap(user => user?.name);
+    // console.log(flattenedUserNames);
+
+    // //Optional chaining with array reversing
+    // let reversedUsers = userArray?.reverse();
+    // console.log(reversedUsers);
+
+    // //Optional chaining with array finding
+    // let foundUser = userArray?.find(user => user.age === 30);
+    // console.log(foundUser);
+
+    // //Optional chaining with array some
+    // let hasAdult = userArray?.some(user => user.age >= 18);
+    // console.log(hasAdult);
+
+    // //Optional chaining with array every
+    // let allAdults = userArray?.every(user => user.age >= 18);
+    // console.log(allAdults);
+
+    // //Optional chaining with array reduction
+    // let totalPrice = userArray?.reduce((sum, user) => sum + (user?.price || 0), 0);
+    // console.log(totalPrice);
+
+    // //Optional chaining with array includes
+    // let includesUser = userArray?.includes(user => user.name === "John");
+    // console.log(includesUser);
+
+    // //Optional chaining with array find
+    // let foundUser = userArray?.find(user => user.age === 30);
+    // console.log(foundUser);
+
+    //Maths operations
+    // let price = 500;
+    // let discount = 4/100;
+    // let finalPrice = price - (price * discount);
+    // console.log(Math.round(finalPrice));
+    // console.log(Math.floor(finalPrice)); //rounds down
+
+    // let randomNum = Math.random(); //generates a random number between 0 and 1
+
+    // let num = "12556489959595";
+    // const convert = parseInt(num);
+    // console.log(typeof convert);
+
+    // let dice = Math.floor(Math.random()*6)+1;
+    // console.log("You rolled a " + dice);
+
+    //Checking if student, John Doe has paid
+    // const hasPaid = false;
+    // if (hasPaid == true) {
+    //     console.log("John Doe has paid.");
+    // } else {
+    //     console.log("John Doe has not paid.");
+    // }
+
+//     const hasPaid = true;
+//     const hasAttend = true;
+
+//     // if (hasPaid == true && hasAttend == true) {
+//     //     alert("You can enter the exam hall");
+//     // }
+//     if (!hasPaid || hasAttend)
+//     alert("You can enter")
+
+// const hasPaid = !true;
+// console.log(hasPaid)
+
+// console.log(parseInt("Hello123"))
+
+// let name = ["Mike", "John", "Paul"]
+// console.log(name)
+// name(0)="Elizabeth"
+// console.log(name)
+let totalBill = 12000;
+let numberOfFriends = 4;
+equalPayByFriends = totalBill/numberOfFriends;
+console.log("Each friend will pay "+equalPayByFriends);
+
+
+    </script>
+</body>
+</html>
